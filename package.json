@@ -8,16 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/talalanwar/shipping-service.git"
+    "url": "git+https://github.com/khuramj/shipping-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "jest": {
-  "testEnvironment": "node"
-  },
   "bugs": {
-    "url": "https://github.com/talalanwar/shipping-service/issues"
+    "url": "https://github.com/khuramj/shipping-service/issues"
   },
-  "homepage": "https://github.com/talalanwar/shipping-service#readme"
+  "homepage": "https://github.com/khuramj/shipping-service#readme",
+  "devDependencies": {
+    "nock": "^11.7.0",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  }
 }
